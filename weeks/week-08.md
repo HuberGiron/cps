@@ -1,5 +1,5 @@
 ---
-title: Semana 08 — Servidor local (Python): gateway + API REST
+title: Semana 08 — Servidor local (Python) gateway + API REST
 parent: Semanas
 nav_order: 8
 ---

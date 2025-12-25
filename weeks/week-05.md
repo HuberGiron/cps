@@ -1,5 +1,5 @@
 ---
-title: Semana 05 — Interfaz local 2: Bluetooth (BLE o clásico) o WiFi local
+title: Semana 05 — Interfaz local 2 Bluetooth (BLE o clásico) o WiFi local
 parent: Semanas
 nav_order: 5
 ---

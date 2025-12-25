@@ -1,5 +1,5 @@
 ---
-title: Semana 12 — Persistencia: BD ligera + series de tiempo (incluye Firebase)
+title: Semana 12 — Persistencia BD ligera + series de tiempo (incluye Firebase)
 parent: Semanas
 nav_order: 12
 ---

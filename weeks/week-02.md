@@ -1,5 +1,5 @@
 ---
-title: Semana 02 — Embebidos I: GPIO + sensado real (incluye PCB)
+title: Semana 02 — Embebidos I GPIO + sensado real (incluye PCB)
 parent: Semanas
 nav_order: 2
 ---

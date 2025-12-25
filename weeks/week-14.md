@@ -1,5 +1,5 @@
 ---
-title: Semana 14 — IA 2: LLM como capa de decisión segura (auditable)
+title: Semana 14 — IA 2 LLM como capa de decisión segura (auditable)
 parent: Semanas
 nav_order: 14
 ---

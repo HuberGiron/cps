@@ -1,5 +1,5 @@
 ---
-title: Semana 11 — Frontend JS: dashboard remoto + control (HTTP)
+title: Semana 11 — Frontend JS dashboard remoto + control (HTTP)
 parent: Semanas
 nav_order: 11
 ---

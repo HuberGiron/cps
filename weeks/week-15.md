@@ -1,5 +1,5 @@
 ---
-title: Semana 15 — Integración industrial: Modbus u OPC-UA
+title: Semana 15 — Integración industrial Modbus u OPC-UA
 parent: Semanas
 nav_order: 15
 ---

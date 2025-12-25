@@ -1,5 +1,5 @@
 ---
-title: Semana 04 — Interfaz local 1: USB/Serial + protocolo simple
+title: Semana 04 — Interfaz local 1 USB/Serial + protocolo simple
 parent: Semanas
 nav_order: 4
 ---

@@ -1,5 +1,5 @@
 ---
-title: Semana 07 — MQTT: pub/sub, QoS, topics, retención
+title: Semana 07 — MQTT pub/sub, QoS, topics, retención
 parent: Semanas
 nav_order: 7
 ---

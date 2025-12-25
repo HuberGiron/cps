@@ -1,5 +1,5 @@
 ---
-title: Semana 10 — Nube 1: despliegue (Render/VPS) + API pública
+title: Semana 10 — Nube 1 despliegue (Render/VPS) + API pública
 parent: Semanas
 nav_order: 10
 ---

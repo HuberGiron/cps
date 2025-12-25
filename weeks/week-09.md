@@ -1,5 +1,5 @@
 ---
-title: Semana 09 — Web realtime: WebSocket o SSE
+title: Semana 09 — Web realtime WebSocket o SSE
 parent: Semanas
 nav_order: 9
 ---

@@ -1,5 +1,5 @@
 ---
-title: Semana 03 — Embebidos II: buses I2C/SPI/UART
+title: Semana 03 — Embebidos II buses I2C/SPI/UART
 parent: Semanas
 nav_order: 3
 ---

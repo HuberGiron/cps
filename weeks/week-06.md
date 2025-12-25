@@ -1,5 +1,5 @@
 ---
-title: Semana 06 — Redes: TCP/UDP + latencia
+title: Semana 06 — Redes TCP/UDP + latencia
 parent: Semanas
 nav_order: 6
 ---

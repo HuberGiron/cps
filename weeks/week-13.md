@@ -1,5 +1,5 @@
 ---
-title: Semana 13 — IA 1: visión o clasificación (local o nube)
+title: Semana 13 — IA 1 visión o clasificación (local o nube)
 parent: Semanas
 nav_order: 13
 ---
