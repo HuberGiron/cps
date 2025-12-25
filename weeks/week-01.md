@@ -162,4 +162,4 @@ En `setup_notes` anota:
 - Evidencia (video 30–90s + capturas)
 
 ## Referencia: Bench tools (TCP/UDP)
-Consulta el instructivo: [Bench Tools — Echo Probes](../bench/tools/bench-tools-guide).
+Consulta el instructivo: [Bench Tools — Echo Probes](../../bench/tools/bench-tools-guide.md).
