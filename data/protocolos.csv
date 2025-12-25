@@ -1,0 +1,39 @@
+Protocolo,Modelo de Comunicación,Aplicación,Núm. Máximo de Dispositivos,Velocidad Aproximada,Latencia Estimada,Tipo de Dispositivos
+ARINC-429,Peer-to-Peer,Aeronautica,"1 tx, hasta 20 rx",12.5-100 kbps,10-100 ms,Sistemas aeronáuticos
+MIL-STD-1553,Peer-to-Peer,Aeronautica,31 remotos,1 Mbps,1-10 ms,"Radar, aviones, armas"
+CANopen,Maestro-Esclavo,Automotriz,127 nodos,1 Mbps,1-5 ms,"ECUs, sensores"
+LIN,Maestro-Esclavo,Automotriz,16 nodos,20 kbps,5-10 ms,"Sensores, motores pequeños"
+FlexRay (estático),Maestro-Esclavo,Automotriz,64 nodos,10 Mbps,1-5 ms,ECUs en chasis o seguridad
+Automotive Ethernet,Peer-to-Peer,Automotriz,Ilimitado,100 Mbps - 1 Gbps,1-5 ms,"ADAS, infotainment, cámaras"
+Bluetooth (Clásico),Maestro-Esclavo,Computo,~7 activos por piconet (hasta 255 en scatternet),"1-3 Mbps (v2.0+EDR), hasta 50 Mbps (v5.0)",10-100 ms,"Smartphones, PCs, periféricos, sensores"
+HTTP/HTTPS,Cliente-Servidor,Computo,Ilimitado,~10 Mbps - 1 Gbps,100-300 ms,"Servidores web, APIs, gateways, dashboards"
+gRPC,Cliente-Servidor,Computo,Ilimitado, ~100 Mbps,10-50 ms,"Microservicios, servidores de datos"
+SCPI,Cliente-Servidor,Computo,1 a pocos,115 kbps - 1 Mbps,10-100 ms,Instrumentos de medición
+TCP/UDP,Peer-to-Peer,Computo,Ilimitado,~100 Mbps,1-10 ms,Todo tipo de dispositivos IP
+WebSocket,Streaming/Full-Duplex,Computo,1000s,~1-10 Mbps,10-100 ms,"Dashboards, apps de control"
+RTSP/RTP,Streaming/Full-Duplex,Computo,100s,1-10 Mbps por stream,50-300 ms,"Cámaras IP, multimedia"
+gRPC bidireccional,Streaming/Full-Duplex,Computo,1000s,~100 Mbps,10-50 ms,"Microservicios, IA"
+Ethernet (PC),Cliente-Servidor,Computo,Ilimitado (por switches y routers),"100 Mbps – 1 Gbps (común), hasta 10 Gbps",<1-5 ms,"PCs, servidores, switches, dispositivos industriales"
+Wi-Fi (IEEE 802.11n/ac/ax),Cliente-Servidor,Computo ,100s,72 Mbps – >1 Gbps (según estándar y canal),1-10 ms,"Laptops, móviles, dispositivos IoT"
+UART,Serial Fisico,Embebido,Punto a punto,Hasta 1 Mbps,1-10 ms,"MCUs, sensores"
+SPI,Serial Fisico,Embebido,~3-5 dispositivos,10+ Mbps,1-2 ms,"Memorias, ADCs, sensores"
+I2C,Serial Fisico,Embebido,127 esclavos,100 kbps - 3.4 Mbps,1-10 ms,"Sensores, displays"
+USB (CDC/HID),Serial Fisico,Embebido,127 dispositivos por host,1.5 Mbps - 480 Mbps,1-10 ms,"Periféricos, MCUs"
+OPC UA (Cliente-Servidor),Cliente-Servidor,Industrial,100s por servidor,10-100 Mbps,10-50 ms,"PLCs, SCADA, HMI, gateways"
+Modbus TCP,Cliente-Servidor,Industrial,247 esclavos por maestro,~10 Mbps,30-200 ms,"PLCs, sensores, SCADA"
+S7Comm,Cliente-Servidor,Industrial,Hasta 8 conexiones simultáneas,~10 Mbps,30-100 ms,PLCs Siemens
+IEC 61850 MMS,Cliente-Servidor,Industrial,100s,~100 Mbps,10-100 ms,"IEDs, relés, SCADA"
+DDS,Pub-Sub,Industrial,1000s,>100 Mbps,1-10 ms,"Robots, vehículos, sistemas críticos"
+OPC UA PubSub,Pub-Sub,Industrial,1000s,10-100 Mbps,10-30 ms,"PLCs, SCADA, sensores"
+Modbus RTU,Maestro-Esclavo,Industrial,247 esclavos,9.6 kbps - 115.2 kbps,100-300 ms,"PLCs, sensores, actuadores"
+PROFIBUS,Maestro-Esclavo,Industrial,126 dispositivos,9.6 kbps - 12 Mbps,10-100 ms,"PLC, drives, sensores"
+DeviceNet,Maestro-Esclavo,Industrial,64 nodos,125 kbps - 500 kbps,10-50 ms,"PLC, E/S, sensores"
+HART,Maestro-Esclavo,Industrial,15 dispositivos por bucle,1200 bps,300-1000 ms,Transmisores 4-20 mA
+EtherCAT,Peer-to-Peer,Industrial,65535 nodos,100 Mbps,1 ms,"Servos, sensores, E/S"
+DDS (streaming),Streaming/Full-Duplex,Industrial,1000s,>100 Mbps,1-10 ms,"Robots, vehículos"
+RS-232,Serial Fisico,Industrial,Punto a punto,115.2 kbps,10-100 ms,"PLCs, sensores"
+RS-485,Serial Fisico,Industrial,32 nodos (sin repetidor),10 Mbps máx,1-10 ms,"PLC, HMI, sensores"
+BACnet/IP,Cliente-Servidor,IOT,~1000,10 Mbps,20-100 ms,"Controladores HVAC, sensores"
+MQTT,Pub-Sub,IOT,Millones (broker permite escalar),~1-10 Mbps típico,10-50 ms,"Sensores, gateways, brokers"
+AMQP,Pub-Sub,IOT,Miles,~10 Mbps,20-100 ms,"Servidores, middleware empresarial"
+Bluetooth Low Energy (BLE),Maestro-Esclavo,IOT,~20-50 según implementación,125 kbps - 2 Mbps,7-50 ms,"Sensores, wearables, beacons"

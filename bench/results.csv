@@ -1,0 +1,2 @@
+date,week,layer,protocol,transport,qos,payload_bytes,rate_msgs_s,throughput_mbps,latency_p50_ms,latency_p95_ms,jitter_ms,loss_pct,breakpoint,setup_notes
+2025-12-25,1,baseline,serial,UART,,64,200,,5,15,2,0.0,stable,"MCU->PC via USB; Python logger"

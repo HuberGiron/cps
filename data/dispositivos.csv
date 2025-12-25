@@ -1,0 +1,75 @@
+Modelo,Categoría,Frecuencia,RAM soportada / integrada,Almacenamiento,I/O Digital / PWM / Analógico,Protocolos disponibles
+Raspberry Pi 4 Model B,Computadora / Procesador,1.5–1.8 GHz (Cortex‑A72),1–8 GB LPDDR4,microSD,"Ethernet, Wi‑Fi ac, Bluetooth 5, USB 3/2, I2C, SPI, UART, TCP/UDP, HTTP/HTTPS, MQTT, WebSocket","40‑pin GPIO (I2C, SPI, UART, PWM); sin ADC nativo"
+Raspberry Pi 5,Computadora / Procesador,2.4 GHz (Cortex‑A76),4–8 GB LPDDR4X,microSD / NVMe (HAT),"Ethernet, Wi‑Fi ac, Bluetooth 5, USB 3/2, PCIe 2.0 x1, I2C, SPI, UART",40‑pin GPIO; sin ADC nativo
+Raspberry Pi Zero 2 W,Computadora / Procesador,1.0 GHz (Cortex‑A53),512 MB LPDDR2,microSD,"Wi‑Fi 4, BT 4.2, USB OTG, I2C, SPI, UART",40‑pin GPIO; sin ADC nativo
+BeagleBone Black,Computadora / Procesador,1.0 GHz (Cortex‑A8),512 MB DDR3,eMMC 4 GB + microSD,"Ethernet, USB, UART, SPI, I2C, CAN","69 GPIO; ADC, PWM"
+BeagleBone AI‑64,Computadora / Procesador,1.8 GHz (Cortex‑A72),4 GB LPDDR4,eMMC 16 GB + microSD,"Ethernet, Wi‑Fi, BT, USB 3, I2C, SPI, UART","GPIO abundante; ADC, PWM"
+BeagleBone Green,Computadora / Procesador,1.0 GHz (Cortex‑A8),512 MB DDR3,microSD,"Ethernet, USB, UART, SPI, I2C","GPIO; ADC, PWM"
+NVIDIA Jetson Nano,Computadora / Procesador,1.43 GHz (quad A57),4 GB LPDDR4,microSD,"GigE, USB 3, I2C, SPI, UART, PCIe, TCP/UDP",40‑pin GPIO; sin ADC nativo
+NVIDIA Jetson TX2,Computadora / Procesador,2.0 GHz (Denver+A57),8 GB LPDDR4,eMMC 32 GB,"GigE, USB, PCIe, I2C, SPI, UART",GPIO; sin ADC nativo
+NVIDIA Jetson Xavier NX,Computadora / Procesador,6‑core Carmel ARM v8.2,8–16 GB LPDDR4x,microSD/eMMC (carrier),"GigE, USB, PCIe, I2C, SPI, UART",40‑pin GPIO; sin ADC nativo
+NVIDIA Jetson Orin Nano,Computadora / Procesador,Up to 6‑core ARM,8–16 GB LPDDR5,eMMC / NVMe (carrier),"GigE, USB, PCIe, I2C, SPI, UART",GPIO; sin ADC nativo
+NVIDIA Jetson Orin NX,Computadora / Procesador,8–12‑core ARM,8–16 GB LPDDR5,eMMC / NVMe,"GigE, USB, PCIe, I2C, SPI, UART",GPIO; sin ADC nativo
+NVIDIA Jetson AGX Orin,Computadora / Procesador,12‑core ARM,32–64 GB LPDDR5,NVMe / eMMC,"Dual GigE, USB, PCIe, I2C, SPI, UART",GPIO; sin ADC nativo
+ODROID‑C4,Computadora / Procesador,2.0 GHz (Cortex‑A55),4 GB DDR4,eMMC / microSD,"GigE, USB 3, I2C, SPI, UART",40‑pin GPIO; sin ADC nativo
+ODROID‑N2+,Computadora / Procesador,2.4 GHz (A73) + 2.0 GHz (A53),4–6 GB DDR4,eMMC / microSD,"GigE, USB 3, I2C, SPI, UART",40‑pin GPIO; sin ADC nativo
+ODROID‑XU4,Computadora / Procesador,2.0 GHz (A15) + 1.4 GHz (A7),2 GB LPDDR3,eMMC / microSD,"GigE, USB 3, I2C, SPI, UART",GPIO; sin ADC nativo
+LattePanda 3 Delta (N5105),Computadora / Procesador,2.0–2.9 GHz,8 GB LPDDR4,64 GB eMMC + M.2,"Ethernet, Wi‑Fi, BT, USB, I2C, SPI, UART",40‑pin GPIO (Arduino co‑procesador)
+UP Board (Atom x5‑Z8350),Computadora / Procesador,1.44–1.92 GHz,4 GB LPDDR3,32/64 GB eMMC,"Ethernet, USB, I2C, SPI, UART",40‑pin GPIO; sin ADC nativo
+Khadas VIM3,Computadora / Procesador,2.2 GHz (A73) + 1.8 GHz (A53),4–6 GB LPDDR4,eMMC 16–64 GB + microSD,"GigE, USB 3, PCIe, I2C, SPI, UART",40‑pin GPIO; sin ADC nativo
+Orange Pi 5,Computadora / Procesador,2.4 GHz (RK3588S),4–32 GB LPDDR4X,eMMC / NVMe / microSD,"GigE, USB 3/2, PCIe, I2C, SPI, UART",40‑pin GPIO; sin ADC nativo
+Banana Pi M5,Computadora / Procesador,2.0 GHz (A55),4 GB DDR4,eMMC 16 GB + microSD,"GigE, USB 3, I2C, SPI, UART",40‑pin GPIO
+Intel NUC (i7 11th Gen),Computadora / Procesador,Hasta ~4.8 GHz (boost),Hasta 64 GB DDR4,M.2 NVMe + SATA,"Ethernet 2.5G, Wi‑Fi 6, BT, USB, Thunderbolt, PCIe",I/O según chasis/placa
+Intel Core i7‑14700K (CPU),Computadora / Procesador,Base/Boost hasta 5.6 GHz,Hasta 192 GB DDR4/DDR5 (según placa),—,"PCIe 5.0/4.0, Ethernet/USB vía placa base",Depende de motherboard
+Intel Core i5‑13400 (CPU),Computadora / Procesador,Boost hasta 4.6 GHz,Hasta 128–192 GB DDR4/DDR5,—,"PCIe, Ethernet/USB vía placa base",Depende de motherboard
+AMD Ryzen 9 7950X (CPU),Computadora / Procesador,Boost hasta 5.7 GHz,Hasta 128–192 GB DDR5,—,"PCIe 5.0, Ethernet/USB vía placa base",Depende de motherboard
+AMD Ryzen 7 7800X3D (CPU),Computadora / Procesador,Boost hasta 5.0 GHz,Hasta 128–192 GB DDR5,—,"PCIe 5.0, Ethernet/USB vía placa base",Depende de motherboard
+AMD Ryzen 7 7700X (CPU),Computadora / Procesador,Boost hasta 5.4 GHz,Hasta 128–192 GB DDR5,—,"PCIe 5.0, Ethernet/USB vía placa base",Depende de motherboard
+Arduino Uno (ATmega328P),Embebido,16 MHz,SRAM 2 KB,Flash 32 KB + EEPROM 1 KB,"UART, SPI, I2C, USB (PC)","14 I/O digitales (6 PWM), 6 entradas analógicas"
+Arduino Mega 2560,Embebido,16 MHz,SRAM 8 KB,Flash 256 KB + EEPROM 4 KB,"UART×4, SPI, I2C, USB (PC)","54 I/O digitales (15 PWM), 16 entradas analógicas"
+Arduino Nano (ATmega328P),Embebido,16 MHz,SRAM 2 KB,Flash 32 KB + EEPROM 1 KB,"UART, SPI, I2C, USB (PC)","14 I/O digitales (6 PWM), 8 entradas analógicas"
+Arduino Due (SAM3X8E),Embebido,84 MHz,SRAM 96 KB,Flash 512 KB,"UART, SPI, I2C, USB OTG, CAN","54 I/O digitales (12 PWM), 12 entradas analógicas, 2 DAC"
+Arduino Zero (SAMD21),Embebido,48 MHz,SRAM 32 KB,Flash 256 KB,"UART, SPI, I2C, USB (CDC/HID)","20 I/O digitales (12 PWM), 6 entradas analógicas, 1 DAC"
+Arduino MKR WiFi 1010 (SAMD21),Embebido,48 MHz,SRAM 32 KB,Flash 256 KB,"Wi‑Fi, BLE, UART, SPI, I2C, USB","22 I/O digitales (12 PWM), 7 entradas analógicas, 1 DAC"
+Arduino Portenta H7,Embebido,480 MHz + 240 MHz,SDRAM 8 MB,Flash 16 MB + microSD (shield),"Wi‑Fi, BLE, Ethernet, USB HS/FS, UART, SPI, I2C, CAN, PCIe (carrier)","Hasta ~160 GPIO (según carrier), ADC, PWM, DAC"
+ESP32-WROOM-32,Embebido,Hasta 240 MHz (dual LX6),SRAM ~520 KB (+PSRAM opcional),Flash externa (4–16 MB),"Wi‑Fi 2.4 GHz, BLE, TCP/UDP/IP, HTTP/HTTPS, MQTT, WebSocket, UART, SPI, I2C, I2S, CAN, Ethernet MAC","~30–36 GPIO; ADC (18), DAC (2), PWM en múltiples pines"
+ESP32-S2,Embebido,Hasta 240 MHz,SRAM ~320 KB (+PSRAM),Flash externa,"Wi‑Fi 2.4 GHz, USB OTG, TCP/IP, HTTP/HTTPS, MQTT, WebSocket, UART, SPI, I2C, I2S","~28–32 GPIO; ADC (20), PWM"
+ESP32-S3,Embebido,Hasta 240 MHz,SRAM ~512 KB (+PSRAM),Flash externa,"Wi‑Fi 2.4 GHz, BLE, USB OTG, TCP/IP, HTTP/HTTPS, MQTT, WebSocket, UART, SPI, I2C, I2S","Hasta 45 GPIO; ADC, PWM"
+ESP32-C3,Embebido,Hasta 160 MHz (RISC‑V),SRAM ~400 KB,Flash externa,"Wi‑Fi 2.4 GHz, BLE 5, TCP/IP, MQTT, HTTP/HTTPS, UART, SPI, I2C","~15–22 GPIO; ADC, PWM"
+ESP32-C6,Embebido,Hasta 160 MHz (RISC‑V),SRAM ~512 KB,Flash externa,"Wi‑Fi 6, 802.15.4 (Thread/Zigbee), BLE 5.3, TCP/IP, MQTT, HTTP, UART, SPI, I2C","~30 GPIO; ADC, PWM"
+ESP8266,Embebido,80–160 MHz,SRAM ~160 KB,Flash externa (4–16 MB),"Wi‑Fi 2.4 GHz, TCP/IP, HTTP/HTTPS, MQTT, WebSocket, UART, SPI, I2C (soft)","~17 GPIO; ADC (1), PWM por soft"
+Raspberry Pi Pico (RP2040),Embebido,133 MHz (dual M0+),SRAM 264 KB,Flash externa 2 MB,"UART, SPI, I2C, USB, PIO (protocolos por soft)","26 GPIO, 3 ADC, PWM en la mayoría"
+Raspberry Pi Pico W (RP2040),Embebido,133 MHz,SRAM 264 KB,Flash 2 MB,"Wi‑Fi 2.4 GHz, UART, SPI, I2C, USB, PIO","26 GPIO, 3 ADC, PWM"
+Teensy 4.0 (i.MX RT1062),Embebido,600 MHz (Cortex‑M7),RAM 1024 KB + OCRAM,Flash 2–4 MB,"USB HS, UART, SPI, I2C, I2S, CAN, Ethernet (via PHY)","~40 GPIO, ADC, PWM, 2x DAC (según placa)"
+Teensy 4.1 (i.MX RT1062),Embebido,600 MHz (Cortex‑M7),RAM 1024 KB + OCRAM,Flash 8 MB (+QSPI),"USB HS, UART, SPI, I2C, I2S, CAN, Ethernet (PHY on-board)","55 GPIO, ADC, PWM, 2x DAC (según placa)"
+STM32F103C8T6 (Blue Pill),Embebido,72 MHz (Cortex‑M3),SRAM 20 KB,Flash 64 KB,"UART, SPI, I2C, USB FS, CAN","37 GPIO, ADC (10/12 bits), PWM"
+STM32F411 Nucleo-64,Embebido,100 MHz (Cortex‑M4F),SRAM 128 KB,Flash 512 KB,"UART, SPI, I2C, USB FS","51 GPIO, ADC, PWM, DAC (según variante)"
+STM32H743 Nucleo-144,Embebido,400 MHz (Cortex‑M7),SRAM ~1 MB,Flash 2 MB,"UART, SPI, I2C, USB HS/FS, Ethernet MAC, CAN FD","100+ GPIO, ADC multicanal, PWM, DAC"
+Microchip PIC16F877A,Embebido,20 MHz (instr 5 MHz),368 bytes RAM,Flash 14 KB + EEPROM 256 B,"USART, SPI, I2C","33 I/O, 8 canales ADC, PWM"
+Microchip PIC18F4550,Embebido,48 MHz (PLL),2 KB RAM,Flash 32 KB + EEPROM 256 B,"USB FS, USART, SPI, I2C","35 I/O, 13 canales ADC, PWM"
+Microchip PIC32MX370F512L,Embebido,80 MHz (MIPS),128 KB RAM,Flash 512 KB,"USB, Ethernet MAC, UART, SPI, I2C, CAN","85 I/O, ADC, PWM"
+TI MSP430G2553 LaunchPad,Embebido,16 MHz,512 B RAM,Flash 16 KB,"UART, SPI, I2C","24 I/O, 8–10 canales ADC, PWM"
+BeagleBone Black,Embebido,1 GHz (Cortex‑A8),512 MB DDR3,eMMC 4 GB + microSD,"Ethernet, USB, UART, SPI, I2C, CAN, PRU‑ICSS","69 GPIO, 7×ADC, PWM"
+Particle Photon,Embebido,120 MHz (Cortex‑M3),128 KB RAM,Flash 1 MB,"Wi‑Fi, TCP/IP, MQTT/HTTP por soft, UART, SPI, I2C","18 GPIO, ADC, PWM"
+Siemens S7‑1500,PLC,Ciclo ns‑µs,Work/Load memory según CPU,SIMATIC card hasta 32 GB,"PROFINET, PROFIBUS, OPC UA, Modbus TCP/RTU (gateway), S7",E/S según módulos; analógico/PWM por módulos
+Siemens S7‑1200,PLC,Ciclo ms,Work/Load memory según CPU,SIMATIC card,"PROFINET, Modbus TCP/RTU (gateway), S7",E/S a bordo en algunas CPU + módulos
+Siemens S7‑300 (legacy),PLC,Ciclo ms,Según CPU,MMC,"PROFIBUS, PROFINET (CP), Modbus (CP/gateway), S7",Módulos E/S; analógico por módulos
+Allen‑Bradley MicroLogix 1400,PLC,Ciclo ms,—,SD (registro),"EtherNet/IP, Modbus TCP/RTU (pasarela)",I/O a bordo + módulos; analógico opcional
+Allen‑Bradley CompactLogix 5370,PLC,Ciclo ms,—,SD,"EtherNet/IP, OPC (gateway), Modbus (gateway)",E/S por módulos
+Allen‑Bradley CompactLogix 5380,PLC,Ciclo µs‑ms,—,SD,"EtherNet/IP, OPC (gateway), Modbus (gateway)",E/S por módulos
+Allen‑Bradley ControlLogix 5580,PLC,Ciclo µs‑ms,—,SD,"EtherNet/IP, OPC (gateway), Modbus (gateway)",E/S por módulos
+Omron CP1H,PLC,Ciclo ms,—,Memory card,"Ethernet (opcional), Modbus, FINS",I/O a bordo + módulos; analógico opcional
+Omron CJ2M,PLC,Ciclo ms,—,Memory card,"EtherNet/IP, Modbus, FINS",E/S por módulos
+Omron NX1P2,PLC,Ciclo ms,—,Memory card,"EtherNet/IP, OPC, Modbus",E/S por módulos/terminales
+Omron NJ501 (Sysmac),PLC,Ciclo µs‑ms,—,Memory card,"EtherCAT, EtherNet/IP, OPC UA",E/S distribuidas EtherCAT
+Schneider Modicon M221,PLC,Ciclo ms,—,SD,"Modbus TCP/RTU, Ethernet/IP (opcional)",I/O a bordo + módulos
+Schneider Modicon M241,PLC,Ciclo ms,—,SD,"Modbus TCP/RTU, Ethernet/IP (opcional), OPC (gateway)",I/O a bordo + módulos
+Schneider Modicon M340,PLC,Ciclo ms,—,Memory card,"Modbus TCP/RTU, Ethernet/IP (opcional)",E/S por módulos
+Schneider Modicon M580,PLC,Ciclo µs‑ms,—,Memory card,"Modbus TCP/RTU, Ethernet/IP, OPC UA",E/S por módulos
+Mitsubishi FX3U (legacy),PLC,Ciclo ms,—,Memory card,"CC‑Link, Modbus (gateway), Ethernet (módulo)",I/O a bordo + módulos
+Mitsubishi FX5U,PLC,Ciclo ms,—,Memory card,"Ethernet, Modbus, CC‑Link IE Field",I/O a bordo + módulos
+Mitsubishi iQ‑R,PLC,Ciclo µs‑ms,—,Memory card,"Ethernet, CC‑Link IE, OPC UA, Modbus (gateway)",E/S por módulos
+Beckhoff CX9020,PLC,Ciclo µs‑ms,512 MB RAM,Flash 4 GB,"EtherCAT, Modbus, OPC UA, PROFINET (opc)",E/S por terminales EtherCAT
+Beckhoff CX5130,PLC,Ciclo µs‑ms,4 GB RAM,Flash 4–8 GB,"EtherCAT, PROFINET, OPC UA, Modbus",E/S por terminales EtherCAT
+WAGO PFC200,PLC,Ciclo ms,256–512 MB RAM,Flash 256 MB + SD,"Modbus TCP/RTU, EtherNet/IP, OPC UA",E/S por módulos WAGO
+Delta DVP Series,PLC,Ciclo ms,—,—,"Modbus RTU/TCP, Ethernet (opc)",I/O a bordo + módulos
