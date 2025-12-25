@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Comparador de dispositivos — Sistemas Ciberfísicos</title>
+  <meta name="description" content="Explora, filtra y compara dispositivos digitales (CPS) por categoría, protocolos e I/O." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="header-row">
+        <div>
+          <h1>Comparador de dispositivos (CPS)</h1>
+          <p class="muted">
+            Herramienta didáctica para <strong>explorar</strong> y <strong>comparar</strong> plataformas de cómputo, embebidos y PLCs.
+            Datos y enlaces se editan en <code>data/devices.json</code> (o <code>data/devices.csv</code>).
+          </p>
+        </div>
+
+        <nav class="tabs" aria-label="Vistas">
+          <button class="tab is-active" data-view="explore" type="button">Explorar</button>
+          <button class="tab" data-view="compare" type="button">Comparar</button>
+          <a class="tab link" href="data/devices.json" target="_blank" rel="noopener">Ver JSON</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- EXPLORE -->
+    <section id="view-explore" class="view is-active" aria-label="Explorar dispositivos">
+      <div class="panel">
+        <div class="controls">
+          <label class="field">
+            <span class="label">Buscar</span>
+            <input id="q" type="search" placeholder="Ej. ESP32, PLC, MQTT, I2C, LPDDR5…" autocomplete="off" />
+          </label>
+
+          <label class="field">
+            <span class="label">Categoría</span>
+            <select id="category">
+              <option value="">Todas</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span class="label">Orden</span>
+            <select id="sort">
+              <option value="model-asc">Modelo (A–Z)</option>
+              <option value="model-desc">Modelo (Z–A)</option>
+              <option value="category-asc">Categoría (A–Z)</option>
+              <option value="category-desc">Categoría (Z–A)</option>
+            </select>
+          </label>
+
+          <button id="clear" class="btn secondary" type="button">Limpiar</button>
+        </div>
+
+        <div class="summary">
+          <div id="count" class="pill" aria-live="polite">—</div>
+          <div class="muted small">
+            Sugerencia: filtra por categoría y usa búsqueda para ubicar rápido dispositivos (ej. “ESP32”, “PLC”, “Jetson”).
+          </div>
+        </div>
+      </div>
+
+      <div class="table-wrap" aria-label="Tabla de dispositivos">
+        <table class="devices-table" id="devicesTable">
+          <thead>
+            <tr>
+              <th class="col-model">Modelo</th>
+              <th>Categoría</th>
+              <th>Frecuencia</th>
+              <th>RAM</th>
+              <th>Almacenamiento</th>
+              <th>Protocolos</th>
+              <th>I/O</th>
+              <th class="col-pdf">PDF</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+
+<div id="empty" class="empty" hidden>
+        No hay resultados con esos filtros.
+      </div>
+    </section>
+
+    <!-- COMPARE -->
+    <section id="view-compare" class="view" aria-label="Comparar dispositivos">
+      <div class="panel">
+        <div class="compare-controls">
+          <div class="compare-pickers">
+            <label class="field">
+              <span class="label">Dispositivo A</span>
+              <select id="pickA"></select>
+            </label>
+            <button id="swap" class="btn secondary" type="button" aria-label="Intercambiar A y B">↔</button>
+            <label class="field">
+              <span class="label">Dispositivo B</span>
+              <select id="pickB"></select>
+            </label>
+          </div>
+
+          <label class="toggle">
+            <input id="diffOnly" type="checkbox" />
+            <span>Solo diferencias</span>
+          </label>
+        </div>
+
+        <div id="compareWrap" class="compare-wrap"></div>
+      </div>
+
+      <div class="muted small compare-note">
+        Nota: las hojas de datos (PDF) viven en <code>datasheets/</code> y las imágenes en <code>assets/img/</code>. Puedes reemplazar los placeholders conservando el mismo nombre de archivo.
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container muted small">
+      Hecho para uso educativo en Sistemas Ciberfísicos. Sin dependencias externas, compatible con GitHub Pages.
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>
