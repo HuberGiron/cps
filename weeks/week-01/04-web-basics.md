@@ -1,5 +1,5 @@
 ---
-title: 04 — Web básica: HTML, CSS y JavaScript para dashboards
+title: 04 — Web básica HTML, CSS y JavaScript para dashboards
 parent: Semana 01 — Fundamentos CPS + Benchmarks + Web + Just-the-Docs
 nav_order: 4
 ---
