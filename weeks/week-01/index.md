@@ -31,5 +31,6 @@ Al finalizar la semana, cada equipo debe:
 3. [Benchmark de protocolos de comunicación (TCP/UDP) + stress test](03-protocol-benchmark)
 4. [Web básica: HTML, CSS y JavaScript para dashboards](04-web-basics)
 5. [Tu primera página en Just-the-Docs (estructura y publicación)](05-just-the-docs-first-page)
+6. [Diagramas a bloques y arquitecturas (Canva/Visual Paradigm)](06-diagrams-block-architecture)
 
 > Fecha base de la versión: **2025-12-25**.
