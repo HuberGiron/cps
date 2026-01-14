@@ -4,7 +4,7 @@ parent: Semana 01 — Fundamentos CPS + Benchmarks + Web + Just-the-Docs
 nav_order: 5
 ---
 
-# Tu primera página en Just-jshjsdjhsdjthe-Docs
+# Tu primera página en Just-the-Docs
 
 ## Paso 1 — Crea tu reporte
 Crea `weeks/week-01/report.md`:
